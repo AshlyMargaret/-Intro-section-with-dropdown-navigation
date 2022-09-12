@@ -1,9 +1,13 @@
 let downArrow2 = document.getElementById("down2");
 let upArrow2 = document.getElementById("up2");
 let DropdownList2 = document.getElementById("myDropdown2");
+let aId2 = document.getElementById("a_id2");
+
 
 
 downArrow2.addEventListener("click",hide2);
+aId2.addEventListener("click",hide2);
+
 
 function hide2(){
     DropdownList2.style.display = "block";
@@ -26,9 +30,11 @@ function show2(){
 let downArrow1 = document.getElementById("down1");
 let upArrow1 = document.getElementById("up1");
 let DropdownList1 = document.getElementById("myDropdown1");
+let aId1 = document.getElementById("a_id1");
 
 
 downArrow1.addEventListener("click",hide1);
+aId1.addEventListener("click",hide1);
 
 function hide1(){
     DropdownList1.style.display = "block";
