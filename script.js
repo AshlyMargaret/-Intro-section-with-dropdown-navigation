@@ -52,3 +52,58 @@ function show1(){
 }
 
 
+//  mobile view
+
+
+ let downArrow21 = document.getElementById("down21");
+ let upArrow21 = document.getElementById("up21");
+ let DropdownList21 = document.getElementById("myDropdown21");
+ let aId21 = document.getElementById("a_id21");
+
+
+
+ downArrow21.addEventListener("click",hide21);
+ aId21.addEventListener("click",hide21);
+
+
+ function hide21(){
+     DropdownList21.style.display = "block";
+     downArrow21.style.display = "none";
+     upArrow21.style.display = "block"
+
+ }
+
+ upArrow21.addEventListener("click",show21);
+
+ function show21(){
+    DropdownList21.style.display = "none";
+    downArrow21.style.display = "block";
+     upArrow21.style.display = "none"
+ }
+
+
+
+
+ let downArrow11 = document.getElementById("down11");
+ let upArrow11 = document.getElementById("up11");
+ let DropdownList11 = document.getElementById("myDropdown11");
+ let aId11 = document.getElementById("a_id11");
+
+
+downArrow11.addEventListener("click",hide11);
+aId11.addEventListener("click",hide11);
+
+function hide11(){
+ DropdownList11.style.display = "block";
+ downArrow11.style.display = "none";
+ upArrow11.style.display = "block"
+
+}
+
+upArrow11.addEventListener("click",show11);
+
+function show11(){
+    DropdownList11.style.display = "none";
+    downArrow11.style.display = "block";
+    upArrow11.style.display = "none";
+}

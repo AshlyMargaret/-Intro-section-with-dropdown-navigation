@@ -240,6 +240,7 @@ h1{
         display: none;
     }
     .mobile_img{
+        width: 100%;
         display: block;
     }
 
@@ -265,15 +266,33 @@ h1{
     width: 300px;
     position: absolute;
     right: 10px;
-    top: 60px;    
+    top: 60px; 
+    height: 100vh;   
    
 }
 
 .hide_close{
+    width: 25px;
     position: absolute;
     right: 10px;
     top: 20px;
    
+}
+
+.login_register1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.register1{
+    width: 130px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 .second_nav{
@@ -287,4 +306,73 @@ h1{
 }
 
 
+
+.dropdown-content11,.dropdown-content21{
+    width: 200px;
+    padding: 20px;
+    box-shadow: 2px 2px #888888;
+    background-color: rgb(250, 252, 251);
+    display: none;
+   
+}
+
+.menu11{
+    padding-bottom: 11px;
+    padding-top: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#up11,#up21{
+    display: none;
+}
+
+/* .dropdown-content21{
+    position: absolute; 
+    top: 90px;
+} */
+
+/* #up11{
+    display: none;
+    cursor: pointer;
+}
+
+#down11{
+    cursor: pointer;
+}
+
+#down21{
+    cursor: pointer;
+}
+.menu11{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+} */
+
+}
+
+@media screen and (max-width:576px){
+    .mobile_img{
+        width: 100%;
+    }
+    .inner_flex_boxes{
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .inner_box img{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .inner_box img{
+        width: 25%;
+    }
 }
