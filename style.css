@@ -72,9 +72,14 @@ header{
     
 }
 
+#up1{
+    display: none;
+}
+
 #up2{
     display: none;
 }
+
 
 
 .list_box{
