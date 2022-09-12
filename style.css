@@ -74,13 +74,21 @@ header{
 
 #up1{
     display: none;
+    cursor: pointer;
 }
 
 #up2{
     display: none;
+    cursor: pointer;
 }
 
+#down1{
+    cursor: pointer;
+}
 
+#down2{
+    cursor: pointer;
+}
 
 .list_box{
     display: flex;
