@@ -208,7 +208,7 @@ h1{
 @media screen and (max-width:767px){
     .main_container{
         width: 100%;
-        background-color: aqua;
+        /* background-color: aqua; */
     }
     .container{
         flex-direction: column-reverse;
