@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+body{
+    background-color: white;
+}
+
+.main_container{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+header{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.login_register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu_icon{
+    display: none;
+}
+
+.hide_menu{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.flexbox1{
+    padding-left: 140px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 40px;
+}
+
+.flexbox1 p{
+    width: 330px;
+}
+
+.flexbox1 button{
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.inner_flex_boxes{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.flexbox2{
+    width: 40%;
+}
+
+.desc_img{
+    width: 400px;
+    height: 400px;
+}
+
+.mobile_img{
+    display: none;
+}
+
+li a{
+    color: black;
+}
+
+.login_register a{
+    color: black;
+}
+
+.register{
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1{
+    width: 180px;
+}
+
+
+
+@media screen and (max-width:767px){
+    .main_container{
+        width: 100%;
+        background-color: aqua;
+    }
+    .container{
+        flex-direction: column-reverse;
+    }
+    .first_nav{
+        display: none;
+    }
+    .login_register{
+        display: none;
+    }
+    .flexbox1{
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+    }
+    .flexbox2{
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    .flexbox1 p {
+        width: 265px;
+        text-align: center;
+    }
+    .desc_img{
+        display: none;
+    }
+    .mobile_img{
+        display: block;
+    }
+
+    .menu_icon{
+        padding-right: 10px;
+        display: block;
+    }
+
+    .logo_nav{
+        padding-left: 10px;
+    }
+
+    /* hide and menu */
+
+
+.main_container{
+        position: relative;
+    }
+
+.hide_menu{
+  
+    background-color: aliceblue;
+    width: 300px;
+    position: absolute;
+    right: 10px;
+    top: 60px;    
+   
+}
+
+.hide_close{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+   
+}
+
+.second_nav{
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.second_nav ul{
+    display: flex;
+    flex-direction: column;
+}
+
+
+}

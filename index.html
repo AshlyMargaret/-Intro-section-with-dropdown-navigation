@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+  <div class="main_container">
+
+<!-- header -->
+  <header>
+
+    <div class="logo_nav">
+     <img src="./images/logo.svg" alt="logo">
+     <nav class="first_nav">
+      <ul>
+        <li><a href="">Features</a></li>
+        <li><a href="">Company</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </nav>
+    </div>
+    
+
+   <div class="login_register">
+    <a href="">Login</a>
+    <button class="register">Register</button>
+   </div>
+
+   <div class="menu_icon" id="hideMenu_id">
+    <img src="./images/icon-menu.svg" alt="icon-menu">
+   </div>
+
+  </header>
+
+     <!-- Hide Menu -->
+
+     <div class="hide_menu" id="showMenu_id">
+      <img src="./images/icon-close-menu.svg" alt="" class="hide_close" id="close_id">
+      <nav class="second_nav">
+        <ul>
+          <li><a href="">Features</a></li>
+          <li><a href="">Company</a></li>
+          <li><a href="">Careers</a></li>
+          <li><a href="">About</a></li>
+        </ul> 
+      </nav>
+    </div>
+
+<!--  -->
+
+  <div class="container">
+    <div class="flexbox1">
+      <h1>Make remote work</h1>
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+      <button>Learn more</button>
+      <div class="inner_flex_boxes">
+        <div class="inner_box1">
+          <img src="./images/client-databiz.svg" alt="databiz">
+        </div>
+        <div class="inner_box2">
+          <img src="./images/client-audiophile.svg" alt="audiophile">
+        </div>
+        <div class="inner_box3">
+          <img src="./images/client-meet.svg" alt="client-meet">
+        </div>
+        <div class="inner_box4">
+          <img src="./images/client-maker.svg" alt="client-maker">
+        </div>
+      </div>
+    </div>
+    <div class="flexbox2">
+      <img src="./images/image-hero-desktop.png" alt="" class="desc_img">
+      <img src="./images/image-hero-mobile.png" alt="" class="mobile_img">
+    </div>
+  </div>
+
+
+  
+</div>
+<script>
+  $(document).ready(function(){
+    $("#close_id").click(function(){
+      $("#showMenu_id").hide();
+    });
+    $("#hideMenu_id").click(function(){
+      $("#showMenu_id").show();
+    });
+  });
+</script>
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
