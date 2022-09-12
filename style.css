@@ -361,7 +361,7 @@ h1{
         width: 100%;
     }
     .inner_flex_boxes{
-        gap: 15px;
+        gap: 35px;
     }
 }
 
@@ -373,6 +373,6 @@ h1{
 
 @media screen and (max-width:320px){
     .inner_box img{
-        width: 25%;
+        width: 75%;
     }
 }
