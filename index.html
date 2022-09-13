@@ -171,11 +171,11 @@
       <img src="./images/image-hero-desktop.png" alt="" class="desc_img">
       <img src="./images/image-hero-mobile.png" alt="" class="mobile_img">
     </div>
-  </div>
-
-
-  
+  </div>  
 </div>
+
+<script src="./script.js"></script>
+
 <script>
   $(document).ready(function(){
     $("#close_id").click(function(){
@@ -184,11 +184,19 @@
     $("#hideMenu_id").click(function(){
       $("#showMenu_id").show();
     });
+
+    $("#a_id1").click(function(){
+      console.log("hi");
+    $("#myDropdown1").toggle();
+   });
+
+   $("#a_id2").click(function(){
+      console.log("hi");
+    $("#myDropdown2").toggle();
+   });
+
+
   });
 </script>
-
-
-
-<script src="./script.js"></script>
 </body>
 </html>

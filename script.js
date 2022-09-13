@@ -6,7 +6,7 @@ let aId2 = document.getElementById("a_id2");
 
 
 downArrow2.addEventListener("click",hide2);
-aId2.addEventListener("click",hide2);
+// aId2.addEventListener("click",hide2);
 
 
 function hide2(){
@@ -17,6 +17,10 @@ function hide2(){
 }
 
 upArrow2.addEventListener("click",show2);
+
+
+
+
 
 function show2(){
     DropdownList2.style.display = "none";
@@ -34,7 +38,7 @@ let aId1 = document.getElementById("a_id1");
 
 
 downArrow1.addEventListener("click",hide1);
-aId1.addEventListener("click",hide1);
+// aId1.addEventListener("click",hide1);
 
 function hide1(){
     DropdownList1.style.display = "block";
@@ -44,6 +48,7 @@ function hide1(){
 }
 
 upArrow1.addEventListener("click",show1);
+
 
 function show1(){
     DropdownList1.style.display = "none";
